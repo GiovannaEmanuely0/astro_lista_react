@@ -1,0 +1,102 @@
+import { StyleSheet } from "react-native";
+
+export const styleDeveloper  = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 0,
+        backgroundColor: '#000515',
+    },
+    cards:{
+        flex: 1, 
+        width: '100%', 
+        padding: 20,
+    },
+    ListItem:{
+        backgroundColor: '#070d22',
+        padding: 15,
+        borderRadius: 10,
+        marginBottom: 10,
+        borderWidth: 1,
+        borderColor: '#643ad1',
+    },
+    modalContainer:{
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalCard:{
+    width: '80%',
+    backgroundColor: '#fcfcfc',
+    padding: 20,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#643ad1',
+  },
+  botao:{
+    backgroundColor: '#643ad1',
+    padding: 15,
+    borderRadius: 20,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  botaoX:{
+    borderRadius: 20,
+    padding: 10,
+    alignItems: 'center',
+    color: '#fff',
+    marginTop: 10,
+  },
+  textBotao:{
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  input:{
+    backgroundColor: '#070d22',
+    color: '#fff',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  title:{
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#643ad1',
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  botaoAdicionar:{
+    backgroundColor: '#643ad1',
+    padding: 10,
+    borderRadius: 5,
+  },
+  botaoAdicionarText:{
+    backgroundColor: '#000515',
+    color: '#fff',
+    paddingHorizontal: 5,
+    fontSize: 16,
+    fontWeight: 'bold',
+    borderRadius: 30,
+  },
+  imagemPerfil:{
+    width: 200,
+    height: 200,
+    borderRadius: 100,
+    marginRight: 10,
+    alignSelf: 'center',
+    borderWidth: 2,
+    borderColor: '#643ad1',
+  },
+  emailAdm:{
+    fontSize: 18,
+    color: '#949494',
+    textAlign: 'center',
+  },
+  tituloAdm:{
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#643ad1',
+    textAlign: 'center',
+  },
+});

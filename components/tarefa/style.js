@@ -1,0 +1,111 @@
+import { StyleSheet } from "react-native";
+
+export const styleTarefa  = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000515',
+    padding: 0,
+  },
+  imageBackground: {
+    flex: 1, 
+    width: 400,
+    height: 300,
+    justifyContent: 'center',
+    padding: 20,
+  },
+  card: {
+    flex: 9, 
+    width: '100%',
+    padding: 16,
+  },
+  botaoAdicionar:{
+    backgroundColor: '#643ad1',
+    padding: 10,
+    borderRadius: 5,
+  },
+  ListItem:{
+    backgroundColor: '#070d22',
+    padding: 15,
+    marginVertical: 8,
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: '#643ad1',
+    borderRadius: 10,
+  },
+  modalContainer:{
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalCard:{
+    width: '80%',
+    backgroundColor: '#fcfcfc',
+    padding: 20,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#643ad1',
+  },
+  botao:{
+    backgroundColor: '#643ad1',
+    padding: 15,
+    borderRadius: 20,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  botaoX:{
+    borderRadius: 20,
+    padding: 10,
+    alignItems: 'center',
+    color: '#fff',
+    marginTop: 10,
+  },
+  textBotao:{
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  botaoAdicionarText:{
+    backgroundColor: '#000515',
+    color: '#fff',
+    paddingHorizontal: 5,
+    fontSize: 16,
+    fontWeight: 'bold',
+    borderRadius: 30,
+  },
+  tituloTarefa:{
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#643ad1',
+    marginBottom: 5,
+  },
+  descTarefa:{
+    fontSize: 14,
+    color: '#949494',
+  },
+  input:{
+    backgroundColor: '#070d22',
+    color: '#fff',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  title:{
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#643ad1',
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  title1:{
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#643ad1',
+    marginBottom: 10,
+  },
+  title2:{
+    fontSize: 20,
+    color: '#ffffff',
+    fontWeight: 'bold',
+  },  
+});
