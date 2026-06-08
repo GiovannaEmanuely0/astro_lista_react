@@ -30,9 +30,9 @@ export const styleCadastro  = StyleSheet.create({
     color: '#643ad1',
   },
   title: {
-    fontSize: 15,
+    fontSize: 20,
     fontWeight: 'bold',
-    color: '#949494',
+    color: '#fff',
   },
   botao: {
     backgroundColor: '#643ad1',
