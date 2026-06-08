@@ -24,7 +24,7 @@ const ImagePerfil3 = {uri: 'https://i.etsystatic.com/49380077/r/il/f4422e/716623
 const ImagePerfil4 = {uri: 'https://images.vexels.com/media/users/3/235233/isolated/preview/be93f74201bee65ad7f8678f0869143a-cracha-de-perfil-de-capacete-de-astronauta.png'};
 
 // IP do seu PC
-const API_URL = 'http://192.168.15.9:8000/api/admin';
+const API_URL = 'http://192.168.56.1:8000/api/admin';
 
 export default function DeveloperScreen() {
   const [admin, setAdmin] = useState([]);
@@ -181,10 +181,10 @@ export default function DeveloperScreen() {
               </TouchableOpacity>
 
               <TouchableOpacity 
-                style={[styleDeveloper.botaoX, { backgroundColor: '#a9a9a9' }]} 
+                style={[styleDeveloper.botaoX, { backgroundColor: '#FF0000' }]} 
                 onPress={() => setModalVisible(false)}
               >
-                <Text style={styleDeveloper.textBotao}>X</Text>
+                <Text style={styleDeveloper.textBotao}>Cancelar</Text>
               </TouchableOpacity>
             </View>
           </View>
