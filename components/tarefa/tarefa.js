@@ -17,7 +17,7 @@ import axios from 'axios';
 
 import { styleTarefa } from './style';
 
-const API_URL = 'http://192.168.15.9:8000/api/tarefa'; 
+const API_URL = 'http://192.168.56.1:8000/api/tarefa'; 
 
 export default function TarefasScreen() {
   const imageFundo = require('../../assets/fundo.png');
@@ -153,35 +153,35 @@ export default function TarefasScreen() {
               <TextInput
                 style={styleTarefa.input}
                 placeholder="Título"
-                placeholderTextColor="#999"
+                placeholderTextColor="#fff"
                 value={titulo}
                 onChangeText={setTitulo}
               />
               <TextInput
                 style={styleTarefa.input}
                 placeholder="Descrição"
-                placeholderTextColor="#999"
+                placeholderTextColor="#fff"
                 value={descricao}
                 onChangeText={setDescricao}
               />
               <TextInput
                 style={styleTarefa.input}
                 placeholder="Prioridade"
-                placeholderTextColor="#999"
+                placeholderTextColor="#fff"
                 value={prioridade}
                 onChangeText={setPrioridade}
               />
               <TextInput  
                 style={styleTarefa.input}
                 placeholder="Categoria"
-                placeholderTextColor="#999"
+                placeholderTextColor="#fff"
                 value={categoria}
                 onChangeText={setCategoria}
               />
               <TextInput 
                 style={styleTarefa.input}
                 placeholder="Digite id do usuário"
-                placeholderTextColor="#999"
+                placeholderTextColor="#fff"
                 value={usuario_id}
                 onChangeText={setUsuario_id}
               />
@@ -198,10 +198,10 @@ export default function TarefasScreen() {
               </TouchableOpacity>
 
               <TouchableOpacity 
-                style={[styleTarefa.botaoX, { backgroundColor: '#a9a9a9' }]} 
+                style={[styleTarefa.botaoX, { backgroundColor: '#FF0000' }]} 
                 onPress={() => setModalVisible(false)}
               >
-                <Text style={styleTarefa.textBotao}>X</Text>
+                <Text style={styleTarefa.textBotao}>Cancelar Tarefa</Text>
               </TouchableOpacity>
             </View>
           </View>
