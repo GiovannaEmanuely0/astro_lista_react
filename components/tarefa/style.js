@@ -40,7 +40,7 @@ export const styleTarefa  = StyleSheet.create({
   },
   modalCard:{
     width: '80%',
-    backgroundColor: '#fcfcfc',
+    backgroundColor: '#070d22',
     padding: 20,
     borderRadius: 10,
     borderWidth: 1,
@@ -84,11 +84,13 @@ export const styleTarefa  = StyleSheet.create({
     color: '#949494',
   },
   input:{
-    backgroundColor: '#070d22',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
     color: '#fff',
     padding: 10,
     borderRadius: 5,
     marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#643ad1',
   },
   title:{
     fontSize: 30,
